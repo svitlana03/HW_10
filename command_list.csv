@@ -56,3 +56,125 @@
    56  git log
    57  command_list.csv
    58  history>command_list.csv
+   59  git add .
+   60  git push
+   61  git add command_list.cvs
+   62  git add .
+   63  git commit -m "Created a new file command_list.cvs"
+   64  git push
+   65  ### AL ###
+   66  #Template for AL projects for Dynamics 365 Business Central
+   67  #launch.json folder
+   68  .vscode/
+   69  #Cache folder
+   70  .alcache/
+   71  #Symbols folder
+   72  .alpackages/
+   73  #Snapshots folder
+   74  .snapshots/
+   75  #Testing Output folder
+   76  .output/
+   77  #Extension App-file
+   78  *.app
+   79  #Rapid Application Development File
+   80  rad.json
+   81  #Translation Base-file
+   82  *.g.xlf
+   83  #License-file
+   84  *.flf
+   85  #Test results file
+   86  TestResults.xml
+   87  ### AL ###
+   88  #Template for AL projects for Dynamics 365 Business Central
+   89  #launch.json folder
+   90  .vscode/
+   91  #Cache folder
+   92  .alcache/
+   93  #Symbols folder
+   94  .alpackages/
+   95  #Snapshots folder
+   96  .snapshots/
+   97  #Testing Output folder
+   98  .output/
+   99  #Extension App-file
+  100  *.app
+  101  #Rapid Application Development File
+  102  rad.json
+  103  #Translation Base-file
+  104  *.g.xlf
+  105  #License-file
+  106  *.flf
+  107  #Test results file
+  108  TestResults.xml
+  109      1  clear
+  110      2  cd HW_10
+  111      3  cd HW_10/
+  112      4  clear
+  113      5  git clone https://github.com/svitlana03/HW_10.git
+  114      6  cd goit/
+  115      7  ls -l
+  116      8  cd HW_10/
+  117      9  git status
+  118     10  git touch text_ignore.txt
+  119     11  git add text_ignore.txt
+  120     12  git --help
+  121     13  git add text_ignore.txt
+  122     14  git add text_ignore.txt
+  123     15  git add text_ignore.txt
+  124     16  git add text_ignore.txt
+  125     17  git add.gitignore text_ignore.txt
+  126     18  git add .gitignore text_ignore.txt
+  127     19  git status
+  128     20  git add.
+  129     21  git add*
+  130     22  git add .
+  131     23  commit -m "Created a new file named text_ignore.txt"
+  132     24  git commit -m "Created a new file named text_ignore.txt"
+  133     25  git add main_test.txt
+  134     26  git add .
+  135     27  git commit -m "Created a new file named main_test.txt"
+  136     28  git checkout -b develop
+  137     29  touch develop_test.txt
+  138     30  git add .
+  139     31  git commit -m "Created a new branch named develop"
+  140     32  git reword
+  141     33   git commit -m "Created a new file named develop_test.txt"
+  142     34  git add .develop_test.txt "Hello"
+  143     35  git add .develop_test.txt test.txt
+  144     36  git add develop_test.txt "Hello"
+  145     37  git add develop_test.txt hello
+  146     38  git add develop_test.txt
+  147     39  git add develop_test.txt "Hello"
+  148     40  git add .develop_test.txt "Hello"
+  149     41  git status
+  150     42  git add develop_test.txt file
+  151     43  echo 'Hello'
+  152     44  git add develop_test.txt
+  153     45  git status
+  154     46  vim develop_test.txt
+  155     47  git status
+  156     48  vim develop_test.txt
+  157     49  cat develop_test.txt
+  158     50  git status
+  159     51  git add .
+  160     52  git add develop_test.txt
+  161     53  git commit -m "Added Hello world! to develop_test.txt file" 
+  162     54  git checkout main
+  163     55  git merge develop
+  164     56  git log
+  165     57  command_list.csv
+  166     58  history>command_list.csv
+  167  touch text_ignore.txt
+  168  vim .gitignore text_ignore.txt
+  169  clear
+  170  touch text_ignore.txt
+  171  nano .gitignore
+  172  touch text_ignore.txt
+  173  vim .gitignore
+  174  vim .gitignore
+  175  touch text_ignore.txt
+  176  vim .gitignore
+  177  git status
+  178  git add .
+  179  git commit -m "Added text_ignore.txt to file .gitignore"
+  180  history>command_list.csv
